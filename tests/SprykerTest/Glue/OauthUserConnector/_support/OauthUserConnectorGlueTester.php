@@ -5,15 +5,17 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace SprykerTest\Zed\OauthUserConnector;
+declare(strict_types=1);
+
+namespace SprykerTest\Glue\OauthUserConnector;
 
 use Codeception\Actor;
 
 /**
  * Inherited Methods
  *
- * @method void wantToTest($text)
  * @method void wantTo($text)
+ * @method void wantToTest($text)
  * @method void execute($callable)
  * @method void expectTo($prediction)
  * @method void expect($prediction)
@@ -21,15 +23,11 @@ use Codeception\Actor;
  * @method void am($role)
  * @method void lookForwardTo($achieveValue)
  * @method void comment($description)
- * @method void pause()
+ * @method void pause($vars = [])
  *
- * @SuppressWarnings(\SprykerTest\Zed\OauthUserConnector\PHPMD)
+ * @SuppressWarnings(\SprykerTest\Glue\OauthUserConnector\PHPMD)
  */
-class OauthUserConnectorBusinessTester extends Actor
+class OauthUserConnectorGlueTester extends Actor
 {
-    use _generated\OauthUserConnectorBusinessTesterActions;
-
-    /**
-     * Define custom actions here
-     */
+    use _generated\OauthUserConnectorGlueTesterActions;
 }
