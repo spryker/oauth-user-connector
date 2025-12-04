@@ -5,7 +5,7 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace SprykerTest\Zed\OauthUserConnector\Business;
+namespace SprykerTest\Zed\OauthUserConnector\Business\Facade;
 
 use Codeception\Test\Unit;
 use Generated\Shared\Transfer\OauthUserTransfer;
@@ -18,6 +18,7 @@ use SprykerTest\Zed\OauthUserConnector\OauthUserConnectorBusinessTester;
  * @group Zed
  * @group OauthUserConnector
  * @group Business
+ * @group Facade
  * @group GetOauthUserTest
  * Add your own group annotations below this line
  */
